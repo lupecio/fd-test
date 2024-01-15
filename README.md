@@ -1,5 +1,11 @@
 # Getting started
 
+## Requirements
+
+    PHP 8.2
+    Composer
+    Postgres
+
 ## Installation
 
 Clone the repository
@@ -36,6 +42,8 @@ You can now access the user registration page at http://localhost:8000
 
 # Using API
 
+## Create User
+
 Send a POST request to http://localhost:8000/api/users with test values
 
     {
@@ -44,6 +52,10 @@ Send a POST request to http://localhost:8000/api/users with test values
         "password": "123456",
         "password_confirmation": "123456"
     }
+
+## List All Users
+
+Send a GET request to http://localhost:8000/api/users
 
 ---
 
