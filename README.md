@@ -63,7 +63,7 @@ Send a GET request to http://localhost:8000/api/users
 
 Setup testing database
 
-    cp .env.example .env.testing
+    cp .env .env.testing
 
 Run tests (**Set the database connection in .env.testing before run test**)
 
